@@ -14,14 +14,23 @@ pip install -r requirements.txt
 
 ## 项目结构
 ├── main.py # 主程序
+
 ├── autoencoder.py # 自编码器模型
+
 ├── LRR.py # 低秩表示算法
+
 ├── RX.py # RX检测器
+
 ├── common_func.py # 通用函数
+
 ├── anomaly_detector.py # 异常检测器
+
 ├── requirements.txt # 依赖项
+
 └── data/ # 数据目录
+
 ├── plane.mat # 高光谱数据
+
 └── plane_gt.mat # 地面真值
 
 ## 快速开始
